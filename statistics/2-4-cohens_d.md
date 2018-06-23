@@ -27,6 +27,7 @@ thinkplot.Config(xlabel='weeks', ylabel='Count')
 ```
 
 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/output_32_0.png "Logo Title Text 1")
 ![png](output_32_0.png)
 
 
