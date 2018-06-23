@@ -147,6 +147,7 @@ firsts.totalwgt_lb.mean(), others.totalwgt_lb.mean()
 
 ```python
 # Solution
+# The difference in means of the newborns' weight is 0.088 standard deviations, which is higher than the difference in pregnancy length # but yet it's a relatively small difference.
 
 CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb)
 ```
@@ -210,7 +211,7 @@ Make a histogram of <tt>parity</tt>, the number of children borne by the respond
 ```python
 # Solution
 
-# This distribution is positive-valued and skewed to the right.
+# This distribution is skewed to the right.
 
 hist = thinkstats2.Hist(resp.parity)
 thinkplot.Hist(hist, label='parity')
@@ -299,9 +300,8 @@ Compute the Cohen effect size for this difference.  How does it compare with the
 ```python
 # Solution
 
-# This effect is about 10 times stronger than the difference in pregnancy length.
-# But remembering the design of the study, we should not make too much of this
-# apparent effect.
+# This effect is stronger than the difference in pregnancy length, but given the design factors of the study we could not make any 
+# signifficant conclusions
 
 CohenEffectSize(rich.parity, notrich.parity)
 ```
