@@ -26,53 +26,6 @@ thinkplot.Hist(hist)
 thinkplot.Config(xlabel='weeks', ylabel='Count')
 ```
 
-
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/output_32_0.png "Logo Title Text 1")
-![png](output_32_0.png)
-
-
-`Hist` provides smallest, which select the lowest values and their frequencies.
-
-
-```python
-for weeks, freq in hist.Smallest(10):
-    print(weeks, freq)
-```
-
-    0 1
-    4 1
-    9 1
-    13 1
-    17 2
-    18 1
-    19 1
-    20 1
-    21 2
-    22 7
-    
-
-Use `Largest` to display the longest pregnancy lengths.
-
-
-```python
-# Solution
-
-for weeks, freq in hist.Largest(10):
-    print(weeks, freq)
-```
-
-    50 2
-    48 7
-    47 1
-    46 1
-    45 10
-    44 46
-    43 148
-    42 328
-    41 587
-    40 1116
-    
-
 From live births, we can selection first babies and others using `birthord`, then compute histograms of pregnancy length for the two groups.
 
 
@@ -83,21 +36,6 @@ others = live[live.birthord != 1]
 first_hist = thinkstats2.Hist(firsts.prglngth, label='first')
 other_hist = thinkstats2.Hist(others.prglngth, label='other')
 ```
-
-We can use `width` and `align` to plot two histograms side-by-side.
-
-
-```python
-width = 0.45
-thinkplot.PrePlot(2)
-thinkplot.Hist(first_hist, align='right', width=width)
-thinkplot.Hist(other_hist, align='left', width=width)
-thinkplot.Config(xlabel='weeks', ylabel='Count', xlim=[27, 46])
-```
-
-
-![png](output_40_0.png)
-
 
 `Series` provides methods to compute summary statistics:
 
@@ -115,26 +53,7 @@ Here are the mean and standard deviation:
 mean, std
 ```
 
-
-
-
     (38.56055968517709, 2.702343810070593)
-
-
-
-As an exercise, confirm that `std` is the square root of `var`:
-
-
-```python
-# Solution
-
-np.sqrt(var) == std
-```
-
-
-
-
-    True
 
 
 
@@ -144,7 +63,6 @@ Here's are the mean pregnancy lengths for first babies and others:
 ```python
 firsts.prglngth.mean(), others.prglngth.mean()
 ```
-
 
 
 
@@ -259,8 +177,6 @@ thinkplot.Config(xlabel='income (category)', ylabel='Count')
 ```
 
 
-![png](output_62_0.png)
-
 
 Make a histogram of <tt>age_r</tt>, the respondent's age at the time of interview.
 
@@ -274,8 +190,6 @@ thinkplot.Config(xlabel='age (years)', ylabel='Count')
 ```
 
 
-![png](output_64_0.png)
-
 
 Make a histogram of <tt>numfmhh</tt>, the number of people in the respondent's household.
 
@@ -288,8 +202,6 @@ thinkplot.Hist(hist, label='numfmhh')
 thinkplot.Config(xlabel='number of people', ylabel='Count')
 ```
 
-
-![png](output_66_0.png)
 
 
 Make a histogram of <tt>parity</tt>, the number of children borne by the respondent.  How would you describe this distribution?
@@ -305,8 +217,6 @@ thinkplot.Hist(hist, label='parity')
 thinkplot.Config(xlabel='parity', ylabel='Count')
 ```
 
-
-![png](output_68_0.png)
 
 
 Use Hist.Largest to find the largest values of <tt>parity</tt>.
@@ -348,8 +258,6 @@ thinkplot.Hist(hist, label='parity')
 thinkplot.Config(xlabel='parity', ylabel='Count')
 ```
 
-
-![png](output_72_0.png)
 
 
 Find the largest parities for high income respondents.
