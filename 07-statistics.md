@@ -89,11 +89,22 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 >> P(Identical|Brother)=P(Identical&Brother)/P(Brother)
 
 P(Identical)=1/300
+
+
 P(Fraternal)=1/125
+
+
 P(Brothers|Identical)=1/2
+
+
 P(Brothers|Fraternal)=1/4
+
+
 P(Identical&Brother)=1/300 * 1/2
+
+
 P(Fraternal&Brother)=1/125 * 1/4
+
 
 P(Identical|Brother)=(1/300 * 1/2)/((1/2 * 1/300)+(1/4 * 1/125))= 5/11
 
@@ -112,6 +123,7 @@ The frequentist approach only uses conditional distributions of data given speci
 The presumption is that some hypothesis is true and that the observed data is sampled from that distribution. In
 particular, the frequentist approach does not depend on a subjective prior that may vary
 from one investigator to another.
+
 These two schools may be further contrasted as follows:
 Bayesian inference
 • uses probabilities for both hypotheses and data.
@@ -125,6 +137,7 @@ Frequentist inference (NHST)
 • does not require a prior.
 • dominated statistical practice during the 20th century.
 • tends to be less computationally intensive.
+
 Frequentist measures like p-values and confidence intervals continue to dominate research,
 especially in the life sciences. However, in the current era of powerful computers and
 big data, Bayesian methods have undergone an enormous renaissance in fields like machine
