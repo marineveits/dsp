@@ -61,7 +61,7 @@ thinkplot.Config(xlabel='Number of kids', ylabel='PMF')
 ```
 
 
-![png](output_75_0.png)
+![alt text](https://github.com/marineveits/dsp/blob/master/img/2_01.png)
 
 
 
@@ -79,7 +79,7 @@ thinkplot.Show(xlabel='Number of kids', ylabel='PMF')
 ```
 
 
-![png](output_77_0.png)
+![alt text](https://github.com/marineveits/dsp/blob/master/img/2_02.png)
 
 
 
