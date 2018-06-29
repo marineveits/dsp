@@ -79,7 +79,7 @@ Make a histogram of <tt>age_r</tt>, the respondent's age at the time of intervie
 
 hist = thinkstats2.Hist(resp.ager)
 thinkplot.Hist(hist, label='ager')
-thinkplot.Config(xlabel='age (years)', ylabel='Count')
+thinkplot.Config(xlabel='age', ylabel='Count')
 ```
 
 ![alt text](https://github.com/marineveits/dsp/blob/master/img/1_02.png)
@@ -93,7 +93,7 @@ Make a histogram of <tt>numfmhh</tt>, the number of people in the respondent's h
 
 hist = thinkstats2.Hist(resp.numfmhh)
 thinkplot.Hist(hist, label='numfmhh')
-thinkplot.Config(xlabel='number of people', ylabel='Count')
+thinkplot.Config(xlabel='numfmhh', ylabel='Count')
 ```
 
 ![alt text](https://github.com/marineveits/dsp/blob/master/img/1_03.png)
