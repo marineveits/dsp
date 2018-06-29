@@ -122,20 +122,30 @@ The Bayesian approach models uncertainty by a probability distribution over hypo
 The ability to make inferences depends on the degree of confidence in the chosen prior,
 and the robustness of the findings to alternate prior distributions may be relevant and
 important.
+
 The frequentist approach only uses conditional distributions of data given specific hypotheses.
 The presumption is that some hypothesis is true and that the observed data is sampled from that distribution. In
 particular, the frequentist approach does not depend on a subjective prior that may vary
 from one investigator to another.
 
 Bayesian inference
+
 • uses probabilities for both hypotheses and data.
+
 • depends on the prior and likelihood of observed data.
+
 • requires to know or construct a ‘subjective prior’.
+
 • may be computationally intensive due to integration over many parameters.
+
 Frequentist inference
+
 • never uses or gives the probability of a hypothesis (no prior or posterior).
+
 • depends on the likelihood P(D | H) for both observed and unobserved data.
+
 • does not require a prior.
+
 • tends to be less computationally intensive.
 
 Frequentist measures like p-values and confidence intervals continue to dominate research,
