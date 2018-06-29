@@ -46,12 +46,18 @@ What do the following commands do:
 `ls -Glp`  
 
 > > 
-`ls` -- lists files and folders in current directory  
+`ls` -- lists files and folders in current directory 
+
 `ls -a`  -- lists hidden files
+
 `ls -l`  -- long format listing of files
+
 `ls -lh`  -- long format listing of files with sizes in human readable format
+
 `ls -lah` -- like 'ls -lh', including hidden files
+
 `ls -t` -- lists files sorted by time modified (latest first)
+
 `ls -glp`  -- long format listing, exlude the owner name, displays directories with /
 
 
@@ -74,10 +80,14 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > 'xargs' converts input from standard input into arguments to a command. It reads data from stdin and executes the command supplied to it as an argument. 
+> > 
+'xargs' converts input from standard input into arguments to a command. It reads data from stdin and executes the command supplied to it as an argument. 
+
 Example:
 $ xargs
+
 Hi, wellcome to Metis. (xargs would echo the string back to us)
+
 Hi, wellcome to Metis.
 
 
