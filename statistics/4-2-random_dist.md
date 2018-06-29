@@ -23,11 +23,10 @@ thinkplot.Show(xlabel='Random num', ylabel='PMF')
 ```
 
 
-![png](output_57_0.png)
+![alt text](https://github.com/marineveits/dsp/blob/master/img/3_01.png)
 
 
 
-    <matplotlib.figure.Figure at 0x1c626252588>
 
 
 
@@ -41,10 +40,8 @@ thinkplot.Show(xlabel='Random num', ylabel='CDF')
 ```
 
 
-![png](output_58_0.png)
+![alt text](https://github.com/marineveits/dsp/blob/master/img/3_02.png)
 
 
-
-    <matplotlib.figure.Figure at 0x1c625fa0438>
-
+    
 
