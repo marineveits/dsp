@@ -84,7 +84,7 @@ What does `xargs` do? Give an example of how to use it.
 `xargs` converts input from standard input into arguments to a command. It reads data from stdin and executes the command supplied to it as an argument. 
 
 Example:
-$ xargs
+`$ xargs`
 
 Hi, wellcome to Metis. (xargs would echo the string back to us)
 
