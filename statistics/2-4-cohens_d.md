@@ -68,6 +68,7 @@ thinkplot.Hist(hist, label='totincr')
 thinkplot.Config(xlabel='income (category)', ylabel='Count')
 ```
 
+![alt text](https://github.com/marineveits/dsp/blob/master/img/1_01.png)
 
 
 Make a histogram of <tt>age_r</tt>, the respondent's age at the time of interview.
@@ -78,9 +79,10 @@ Make a histogram of <tt>age_r</tt>, the respondent's age at the time of intervie
 
 hist = thinkstats2.Hist(resp.ager)
 thinkplot.Hist(hist, label='ager')
-thinkplot.Config(xlabel='age (years)', ylabel='Count')
+thinkplot.Config(xlabel='age', ylabel='Count')
 ```
 
+![alt text](https://github.com/marineveits/dsp/blob/master/img/1_02.png)
 
 
 Make a histogram of <tt>numfmhh</tt>, the number of people in the respondent's household.
@@ -91,9 +93,10 @@ Make a histogram of <tt>numfmhh</tt>, the number of people in the respondent's h
 
 hist = thinkstats2.Hist(resp.numfmhh)
 thinkplot.Hist(hist, label='numfmhh')
-thinkplot.Config(xlabel='number of people', ylabel='Count')
+thinkplot.Config(xlabel='numfmhh', ylabel='Count')
 ```
 
+![alt text](https://github.com/marineveits/dsp/blob/master/img/1_03.png)
 
 
 Make a histogram of <tt>parity</tt>, the number of children borne by the respondent.  How would you describe this distribution?
@@ -109,6 +112,7 @@ thinkplot.Hist(hist, label='parity')
 thinkplot.Config(xlabel='parity', ylabel='Count')
 ```
 
+![alt text](https://github.com/marineveits/dsp/blob/master/img/1_04.png)
 
 
 Use Hist.Largest to find the largest values of <tt>parity</tt>.
@@ -150,6 +154,7 @@ thinkplot.Hist(hist, label='parity')
 thinkplot.Config(xlabel='parity', ylabel='Count')
 ```
 
+![alt text](https://github.com/marineveits/dsp/blob/master/img/1_05.png)
 
 
 Find the largest parities for high income respondents.
