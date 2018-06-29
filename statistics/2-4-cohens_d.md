@@ -68,7 +68,9 @@ thinkplot.Hist(hist, label='totincr')
 thinkplot.Config(xlabel='income (category)', ylabel='Count')
 ```
 
-![alt text](https://github.com/marineveits/dsp/img/1_01.png)
+![alt text][logo]
+
+[logo]: https://github.com/marineveits/dsp/img/1_01.png "1"
 
 
 Make a histogram of <tt>age_r</tt>, the respondent's age at the time of interview.
