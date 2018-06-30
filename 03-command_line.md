@@ -21,16 +21,16 @@ Here's a list of items with which you should be familiar:
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
 > > 
-1. 'pwd' -- show current working directory 
-2. 'mkdir' -- creating a directory
-3. 'rm -r' -- deleting a directory
-4. 'touch' -- creating a file using `touch` command
-5. 'rm' -- deleting a file
-6. 'mv' (old file name as the first argument and new file name as the second) -- renaming a file
-7. 'ls -a' -- listing hidden files
-8. 'cp' (with the source file as the first argument and the destination directory as the second)-- copying a file from one directory to another
-9. 'cd' -- changing a directory
-10. 'ls -alt' -- lists all files and folders ordered in current directory including their properties 
+1. `pwd` -- show current working directory 
+2. `mkdir` -- creating a directory
+3. `rm -r` -- deleting a directory
+4. `touch` -- creating a file using `touch` command
+5. `rm` -- deleting a file
+6. `mv` (old file name as the first argument and new file name as the second) -- renaming a file
+7. `ls -a` -- listing hidden files
+8. `cp` (with the source file as the first argument and the destination directory as the second)-- copying a file from one directory to another
+9. `cd` -- changing a directory
+10. `ls -alt` -- lists all files and folders ordered in current directory including their properties 
 
 ---
 
@@ -46,12 +46,18 @@ What do the following commands do:
 `ls -Glp`  
 
 > > 
-`ls` -- lists files and folders in current directory  
+`ls` -- lists files and folders in current directory 
+
 `ls -a`  -- lists hidden files
+
 `ls -l`  -- long format listing of files
+
 `ls -lh`  -- long format listing of files with sizes in human readable format
+
 `ls -lah` -- like 'ls -lh', including hidden files
+
 `ls -t` -- lists files sorted by time modified (latest first)
+
 `ls -glp`  -- long format listing, exlude the owner name, displays directories with /
 
 
@@ -62,11 +68,11 @@ What do the following commands do:
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
 > > 
-1. 'ls -R' -- displays subdirectories as well
-2. 'ls -x' -- displays files as rows across the screen
-3. 'ls -q' -- displays all nonprinting characters
-4. 'ls -o' -- long format listing, excludes group name
-5. 'ls -m' -- displays the names as comma separated list
+1. `ls -R` -- displays subdirectories as well
+2. `ls -x` -- displays files as rows across the screen
+3. `ls -q` -- displays all nonprinting characters
+4. `ls -o` -- long format listing, excludes group name
+5. `ls -m` -- displays the names as comma separated list
 
 ---
 
@@ -74,10 +80,14 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > 'xargs' converts input from standard input into arguments to a command. It reads data from stdin and executes the command supplied to it as an argument. 
+> > 
+`xargs` converts input from standard input into arguments to a command. It reads data from stdin and executes the command supplied to it as an argument. 
+
 Example:
-$ xargs
+`$ xargs`
+
 Hi, wellcome to Metis. (xargs would echo the string back to us)
+
 Hi, wellcome to Metis.
 
 

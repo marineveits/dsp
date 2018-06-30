@@ -17,20 +17,6 @@ import thinkplot
 ```
 
 
-This function computes the biased PMF we would get if we surveyed students and asked about the size of the classes they are in.
-
-
-```python
-def BiasPmf(pmf, label):
-    new_pmf = pmf.Copy(label=label)
-
-    for x, p in pmf.Items():
-        new_pmf.Mult(x, x)
-        
-    new_pmf.Normalize()
-    return new_pmf
-```
-
 
 **Exercise:** Something like the class size paradox appears if you survey children and ask how many children are in their family. Families with many children are more likely to appear in your sample, and families with no children have no chance to be in the sample.
 
