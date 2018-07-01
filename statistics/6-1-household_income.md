@@ -86,7 +86,6 @@ thinkplot.Config(xlabel='Household income (log $)',
                ylabel='CDF')
 ```
 
-    No handles with labels found to put in legend.
 
 
 
@@ -107,8 +106,7 @@ thinkplot.Config(xlabel='Household income ($)',
                ylabel='CDF')
 ```
 
-    No handles with labels found to put in legend.
-
+   
 
 ![alt text](https://github.com/marineveits/dsp/blob/master/img/output_60_1.png)
 
@@ -118,7 +116,7 @@ Compute the median, mean, skewness and Pearson’s skewness of the resulting sam
 
 
 ```python
-# Solution goes here
+# Solution 
 Mean(sample), Median(sample)
 ```
 
@@ -131,7 +129,7 @@ Mean(sample), Median(sample)
 
 
 ```python
-# Solution goes here
+# Solution 
 Skewness(sample), PearsonMedianSkewness(sample)
 ```
 
@@ -144,7 +142,7 @@ Skewness(sample), PearsonMedianSkewness(sample)
 
 
 ```python
-# Solution goes here
+# Solution 
 # About 66% of the population makes less than the mean, in this case it is prefered to use the median
 
 cdf.Prob(Mean(sample))
