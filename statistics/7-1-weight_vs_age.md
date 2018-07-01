@@ -69,7 +69,8 @@ BinnedPercentiles(live)
 ```
 
 
-![png](output_62_0.png)
+![alt text](https://github.com/marineveits/dsp/blob/master/img/output_62_0.png)
+
 
 
 
@@ -88,8 +89,7 @@ ScatterPlot(ages, weights, alpha=0.05, s=10)
 ```
 
 
-![png](output_63_0.png)
-
+![alt text](https://github.com/marineveits/dsp/blob/master/img/output_63_0.png)
 
 
 ```python
