@@ -45,7 +45,7 @@ def SimulateGame(lam):
 
 
 ```python
-# Solution goes here
+# Solution 
 def Estimate6(lam=2, m=1000000):
 
     estimates = []
@@ -69,8 +69,6 @@ Estimate6()
     mean error L -0.001357
 
 
-    No handles with labels found to put in legend.
-
 
 
 ![alt text](https://github.com/marineveits/dsp/blob/master/img/output_38_2.png)
@@ -78,7 +76,7 @@ Estimate6()
 
 
 ```python
-# Solution goes here
+# Solution 
 # RMSE for this way of estimating lambda is 1.4
 # The mean error is small and decreases with m, so this estimator
 # seems unbiased.
