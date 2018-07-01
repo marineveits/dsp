@@ -25,7 +25,7 @@ Use this model to test the differences in pregnancy length and birth weight. How
 
 
 ```python
-# Solution goes here
+# Solution 
 class DiffMeansResample(DiffMeansPermute):
     
     def RunModel(self):
@@ -37,7 +37,7 @@ class DiffMeansResample(DiffMeansPermute):
 
 
 ```python
-# Solution goes here
+# Solution 
 def RunResampleTest(firsts, others):
     data = firsts.prglngth.values, others.prglngth.values
     ht = DiffMeansResample(data)
@@ -59,7 +59,7 @@ def RunResampleTest(firsts, others):
 
 
 ```python
-# Solution goes here
+# Solution
 RunResampleTest(firsts, others)
 ```
 
@@ -77,7 +77,7 @@ RunResampleTest(firsts, others)
 
 
 ```python
-# Solution goes here
+# Solution
 # Resampling has a small effect on the results over permutation. There is no obvious 
 # reason to choose resampling over permutation and vice versa. 
 # However, we should choose a model based on it's assumptions and the choice of the null hypothesis.
