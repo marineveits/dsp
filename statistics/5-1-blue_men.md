@@ -77,7 +77,7 @@ How many people are between 5'10" and 6'1"?
 
 
 ```python
-# Solution goes here
+# Solution 
 #5'10"=177.8 cm, 6'1"=185.42 cm
 
 low = dist.cdf(177.8)    
