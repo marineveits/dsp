@@ -22,7 +22,7 @@ Repeat the experiment with a few different values of `n` and make a plot of stan
 
 
 ```python
-# Solution goes here
+# Solution
 def SimulateSample(lam=2, n=10, iters=1000):
 
     def VertLine(x, y=1):
@@ -54,14 +54,11 @@ def SimulateSample(lam=2, n=10, iters=1000):
 SimulateSample()
 ```
 
-    No handles with labels found to put in legend.
+    
 
 
     standard error 0.8574580627720951
     confidence interval (1.273869837187447, 3.797903012980879)
-
-
-
 
 
     0.8574580627720951
@@ -74,7 +71,7 @@ SimulateSample()
 
 
 ```python
-# Solution goes here
+# Solution 
 def SimulateSample(lam=2, n=100, iters=1000):
 
     def VertLine(x, y=1):
@@ -106,14 +103,8 @@ def SimulateSample(lam=2, n=100, iters=1000):
 SimulateSample()
 ```
 
-    No handles with labels found to put in legend.
-
-
     standard error 0.2098421290268131
     confidence interval (1.7182441979102434, 2.410310637076757)
-
-
-
 
 
     0.2098421290268131
@@ -126,7 +117,7 @@ SimulateSample()
 
 
 ```python
-# Solution goes here
+# Solution 
 def SimulateSample(lam=2, n=1000, iters=1000):
 
     def VertLine(x, y=1):
@@ -158,14 +149,9 @@ def SimulateSample(lam=2, n=1000, iters=1000):
 SimulateSample()
 ```
 
-    No handles with labels found to put in legend.
-
 
     standard error 0.0616439369053749
     confidence interval (1.9089630541900513, 2.109395766742804)
-
-
-
 
 
     0.0616439369053749
@@ -178,7 +164,7 @@ SimulateSample()
 
 
 ```python
-# Solution goes here
+# Solution
 # With sample size 10:
 # standard error 0.8574580627720951
 # confidence interval (1.273869837187447, 3.797903012980879)
