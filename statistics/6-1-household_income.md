@@ -75,7 +75,6 @@ income_df = hinc.ReadData()
 log_sample = InterpolateSample(income_df, log_upper=6.0)
 ```
 
-    /home/marine/anaconda3/lib/python3.6/site-packages/ipykernel_launcher.py:26: DeprecationWarning: object of type <class 'numpy.float64'> cannot be safely interpreted as an integer.
 
 
 
