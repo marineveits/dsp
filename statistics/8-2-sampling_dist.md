@@ -69,7 +69,7 @@ SimulateSample()
 
 
 
-![alt text](https://github.com/marineveits/dsp/blob/master/img/output_32_2.png)
+![alt text](https://github.com/marineveits/dsp/blob/master/img/output_32_3.png)
 
 
 
