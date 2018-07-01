@@ -33,14 +33,14 @@ resp = nsfg.ReadFemResp()
 
 
 ```python
-# Solution goes here
+# Solution 
 
 pmf = thinkstats2.Pmf(resp.numkdhh, label='numkdhh')
 ```
 
 
 ```python
-# Solution goes here
+# Solution 
 
 thinkplot.Pmf(pmf)
 thinkplot.Config(xlabel='Number of kids', ylabel='PMF')
@@ -52,13 +52,13 @@ thinkplot.Config(xlabel='Number of kids', ylabel='PMF')
 
 
 ```python
-# Solution goes here
+# Solution
 biased=BiasPmf(pmf, label='biased')
 ```
 
 
 ```python
-# Solution goes here
+# Solution 
 thinkplot.PrePlot(2)
 thinkplot.Pmfs([pmf, biased])
 thinkplot.Show(xlabel='Number of kids', ylabel='PMF')
@@ -69,12 +69,12 @@ thinkplot.Show(xlabel='Number of kids', ylabel='PMF')
 
 
 
-    <matplotlib.figure.Figure at 0x254a2009ef0>
+   
 
 
 
 ```python
-# Solution goes here
+# Solution 
 pmf.Mean()
 ```
 
@@ -87,7 +87,7 @@ pmf.Mean()
 
 
 ```python
-# Solution goes here
+# Solution 
 biased.Mean()
 ```
 
