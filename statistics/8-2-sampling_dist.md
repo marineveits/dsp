@@ -69,7 +69,7 @@ SimulateSample()
 
 
 
-![png](output_32_3.png)
+![alt text](https://github.com/marineveits/dsp/blob/master/img/output_32_2.png)
 
 
 
@@ -121,7 +121,7 @@ SimulateSample()
 
 
 
-![png](output_33_3.png)
+![alt text](https://github.com/marineveits/dsp/blob/master/img/output_33_3.png)
 
 
 
@@ -173,7 +173,7 @@ SimulateSample()
 
 
 
-![png](output_34_3.png)
+![alt text](https://github.com/marineveits/dsp/blob/master/img/output_34_3.png)
 
 
 
