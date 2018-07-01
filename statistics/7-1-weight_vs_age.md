@@ -29,7 +29,7 @@ live = live.dropna(subset=['agepreg', 'totalwgt_lb'])
 
 
 ```python
-# Solution goes here
+# Solution
 ages = live.agepreg
 weights = live.totalwgt_lb
 print('Corr', Corr(ages, weights))
@@ -42,7 +42,7 @@ print('SpearmanCorr', SpearmanCorr(ages, weights))
 
 
 ```python
-# Solution goes here
+# Solution 
 def BinnedPercentiles(df):
     """Bin the data by age and plot percentiles of weight for each bin.
 
@@ -75,7 +75,7 @@ BinnedPercentiles(live)
 
 
 ```python
-# Solution goes here
+# Solution 
 def ScatterPlot(ages, weights, alpha=1.0, s=20):
 
     thinkplot.Scatter(ages, weights, alpha=alpha)
@@ -93,7 +93,7 @@ ScatterPlot(ages, weights, alpha=0.05, s=10)
 
 
 ```python
-# Solution goes here
+# Solution 
 
 #    The scatterplot shows a weak relationship between the variables but
 #    it is hard to see clearly. Pearson's is around 0.07, Spearman's
